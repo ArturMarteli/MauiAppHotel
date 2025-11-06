@@ -77,7 +77,18 @@
                     
                 </Frame>
 
-                <Button Text="Avançar" Clicked="Button_Clicked" />
+                <VerticalStackLayout Spacing="10" HorizontalOptions="Center">
+
+                    <Button Text="Avançar"
+                        HorizontalOptions="Center"
+                        Clicked="Button_Clicked" />
+                
+                    <Button Text="Voltar" 
+                        HorizontalOptions="Center"
+                        Clicked="Button_Clicked_1" />
+
+                </VerticalStackLayout>
+
 
             </VerticalStackLayout>
             
